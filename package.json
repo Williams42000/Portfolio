@@ -1,0 +1,23 @@
+{
+  "homepage":"https://Williams42000.github.io/Portfolio",
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.60.0"
+  },
+  "dependencies": {
+    "gsap": "^3.11.5"
+  }
+}
