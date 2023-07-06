@@ -45,19 +45,19 @@ let barInterval = setInterval(() => {
             background: "linear-gradient(#3f87a6,#f69d3c )",
         });
         gsap.to ('.loading', {
-            delay: 4,
+            delay: 2,
             duration: 2,
             //zindex: 1,
             background: "linear-gradient(#3200ab,#4e0384 )",
         });
         gsap.to ('.loading', {
-            delay: 6,
+            delay: 4,
             duration: 2,
             //zindex: 1,
             background: "linear-gradient(#1b1b1b,#3200ab)",
         });
         gsap.to ('.loading', {
-            delay: 8,
+            delay: 4,
             duration: 2,
             background: "black",
             display: "none",
@@ -70,6 +70,7 @@ let barInterval = setInterval(() => {
     }
 
     }, 20);
+
 
     
     
